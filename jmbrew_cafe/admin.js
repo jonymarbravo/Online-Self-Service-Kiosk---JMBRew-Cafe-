@@ -1,4 +1,4 @@
-// admin.js - SUPER FAST VERSION (Reset Priority Function Removed)
+// admin.js
 
 let autoRefreshInterval = null;
 let currentSection = "kitchen";
@@ -785,3 +785,4 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("beforeunload", () => {
   stopAutoRefresh();
 });
+
