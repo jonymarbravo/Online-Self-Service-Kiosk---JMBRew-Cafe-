@@ -1,5 +1,5 @@
 <?php
-// api/place_order.php - FIXED VERSION
+// api/place_order.php
 require_once '../config.php';
 
 header('Content-Type: application/json');
@@ -140,3 +140,4 @@ try {
 } catch (Exception $e) {
     jsonResponse(false, 'Server error: ' . $e->getMessage());
 }
+
