@@ -1,4 +1,4 @@
-// kiosk.js - FIXED VERSION WITH CLICK OUTSIDE TO CLOSE
+// kiosk.js
 
 let currentCategory = "Coffee";
 let cart = [];
@@ -528,3 +528,4 @@ function placeNewOrder() {
 document.addEventListener("DOMContentLoaded", () => {
   // Session check is done in window.load event
 });
+
